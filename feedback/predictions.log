@@ -1,0 +1,3 @@
+timestamp,predicted_class,confidence,status,correct,user_feedback
+2026-01-03T00:49:52.645450,plastic,0.9997,confident,True,NA
+2026-01-03T00:53:27.855421,metal,0.2783,out_of_scope,False,NA
