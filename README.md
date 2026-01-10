@@ -157,10 +157,9 @@ The application uses a deep learning model trained on garbage classification:
 
 | Metric | Value |
 |--------|-------|
-| Test Accuracy | 96% |
-| Avg. Inference Time | ~200ms |
-| Model Size | ~80MB |
-| Memory Usage | ~500MB |
+| Test Accuracy | 98% |
+| F1 Score| 98%  |
+| Macro F1-Score| 98% |
 
 ## 🔧 Configuration
 
@@ -185,18 +184,9 @@ Contributions are welcome! Here's how:
 
 ## 🐛 Known Issues
 
-- Large models (>1GB) may not work on Streamlit Cloud free tier
+- Large models may not work on Streamlit Cloud free tier
 - Camera feature requires HTTPS in production
-
-## 🗺️ Roadmap
-
-- [ ] Multi-language support
-- [ ] Mobile app version
-- [ ] Real-time video classification
-- [ ] User accounts and history
-- [ ] API endpoint for integrations
-- [ ] More detailed recycling guides
-
+- 
 ## 👏 Acknowledgments
 
 - TensorFlow team for the framework
@@ -205,7 +195,7 @@ Contributions are welcome! Here's how:
 
 ## 📧 Contact
 
-- **Issues**: [GitHub Issues](https://github.com/Shpetim10/garbage-classifier/issues)
+- **Issues**: [GitHub Issues](https://github.com/Shpetim10/Garbage-Classifier-with-Computer-Vision/issues)
 - **Email**: sshabanaj23@epoka.edu.al
 
 ## 🌍 Environmental Impact
