@@ -26,7 +26,7 @@ class RecyclabilityKnowledgeBase:
             },
             
             'biological': {
-                'recyclable': True,
+                'recyclable': False,
                 'category': 'Compostable Waste',
                 'recycling_instructions': [
                     'Add to compost bin or green waste collection',
