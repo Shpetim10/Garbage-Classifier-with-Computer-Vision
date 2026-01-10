@@ -550,7 +550,7 @@ def main():
     st.markdown("""
     <div style='text-align: center; color: #666; padding: 2rem;'>
         <p>🌍 Help protect our environment by recycling properly</p>
-        <p style='font-size: 0.9rem;'>Made with ❤️ using Streamlit and TensorFlow</p>
+        <p style='font-size: 0.9rem;'>Developed by Artjol Zaimi, Eglis Braho and Shpëtim Shabanaj</p>
     </div>
     """, unsafe_allow_html=True)
 
