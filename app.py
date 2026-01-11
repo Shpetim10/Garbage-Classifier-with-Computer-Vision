@@ -8,7 +8,6 @@ Features:
 - Knowledge base for recyclability information
 - User feedback collection
 - Batch processing and ZIP download
-- Loading animations
 """
 
 import streamlit as st
@@ -300,13 +299,6 @@ def main():
             help="Minimum confidence for single prediction"
         )
         classifier.confidence_threshold = confidence_threshold
-        
-        # Use TTA
-        use_tta = st.checkbox(
-            "Use Test-Time Augmentation",
-            value=False,
-            help="Slower but more accurate"
-        )
         
         # Random fact
         st.header("💡 Did You Know?")
