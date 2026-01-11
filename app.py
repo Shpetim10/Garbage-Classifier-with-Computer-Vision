@@ -369,11 +369,8 @@ def main():
                     # Resize if needed
                     image = processor.resize_image(image)
                     
-                    # Make prediction
-                    if use_tta:
-                        prediction = classifier.predict_with_tta(image, num_augmentations=5)
-                    else:
-                        prediction = classifier.predict(image)
+                    # Make prediction   
+                    prediction = classifier.predict(image)
                     
                     # Store results
                     st.session_state.processed_images.append((image, uploaded_file.name))
