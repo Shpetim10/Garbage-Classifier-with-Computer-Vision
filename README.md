@@ -44,7 +44,7 @@ An intelligent web application that uses deep learning to classify waste items a
 - Python 3.8 or higher
 - pip package manager
 - 4GB+ RAM recommended
-- Trained Keras model file
+- Trained Keras model file(If you want to change the model)
 
 ### Installation
 
@@ -172,21 +172,7 @@ classifier = GarbageClassifier(
     out_of_scope_threshold=0.50     # Out-of-scope cutoff
 )
 ```
-## 🤝 Contributing
 
-Contributions are welcome! Here's how:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 🐛 Known Issues
-
-- Large models may not work on Streamlit Cloud free tier
-- Camera feature requires HTTPS in production
-- 
 ## 👏 Acknowledgments
 
 - TensorFlow team for the framework
