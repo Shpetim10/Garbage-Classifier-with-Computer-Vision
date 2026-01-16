@@ -7,6 +7,7 @@ An intelligent web application that uses deep learning to classify waste items a
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+Deployed Project:  https://garbage-classifier-with-computer-vision.streamlit.app/
 ## 🌟 Features
 
 - **Multi-Image Upload**: Process multiple images at once
@@ -113,13 +114,6 @@ garbage-classifier/
 6. **Export**: Download organized ZIP file or CSV report
 
 ### Advanced Features
-
-#### Test-Time Augmentation (TTA)
-Enable in sidebar for more accurate predictions (slower):
-```python
-# In sidebar settings
-✓ Use Test-Time Augmentation
-```
 
 #### Confidence Threshold
 Adjust sensitivity in sidebar:
